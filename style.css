@@ -31,5 +31,135 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: 'Lora', serif;
 }
 
+h1,h2,h3 {
+	font-family: 'Playfair Display', serif;
+	line-height: 1.25;
+}
+h1 {
+	font-size: 52px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 18px;
+}
+
+section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.obsah-sekce {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+
+/* HLAVICKA */
+.hlavicka {
+	display: flex;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	justify-content: space-between;
+	max-width: 1100px;
+	margin: 0 auto;
+	
+}
+
+.hlavicka img {
+	width: 170px;
+}
+
+.menu ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	justify-content: space-between;
+}
+.menu a {
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 20px;
+	display: inline-block;
+}
+.menu a:hover {
+	background-color: #f195b2;
+}
+.menu li {
+	color: #242424;
+	display: inline-block;
+}
+
+
+
+/* HERO */
+.hero {
+	background: url(./images/cupcake.jpg) no-repeat center/cover;
+}
+.hero-text {
+	font-size: 24px;
+	font-style: italic;
+}
+.hero .obsah-sekce {
+	padding-right: 40%;
+}
+
+/* CUKRARKA */
+.dva-sloupce {
+	display: flex;
+
+}
+.sloupec {
+	flex-basis: 50%;
+	flex-shrink: 0;
+	padding-right: 30px;
+}
+.tlacitko {
+	background-color: #f195b2;
+	border-radius: 30px;
+	padding: 15px 40px;
+	text-decoration: none;
+	color: white;
+}
+.tlacitka {
+	margin-top: 50px;
+}
+a.tlacitko:hover {
+	background-color: #d2567d;
+}
+
+/*	DNESNI NABIDKA */
+.sekce-seda {
+	background-color: #f0f0f0;
+}
+.nabidka {
+	display: flex;
+	justify-content: space-between;
+}
+.produkt {
+	background-color: white;
+	border-radius: 5px;
+	width: 250px;
+	overflow: hidden;
+}
+.produkt-img {          /* !!!!!!!! */
+	width: 250px;
+}
+.produkt-obsah {
+	padding: 20px;
+}
+
+/* PATICKA */
+.paticka {
+	background-color: #303339;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+	text-align: center;
+}
